@@ -25,5 +25,6 @@ int main()
 
     float avg = calculate_avg(vect, vect_size);
     printf("Valor da média = %.2f\n", avg);
-   
+
+    return 0;   
 }
