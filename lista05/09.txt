@@ -1,0 +1,7 @@
+PERGUNTA: Quem faz mais operações: a versão iterativa ou a versão recursiva do fatorial? Os dois usam a mesma quantidade de memória?
+
+RESPOSTA: 
+A versão recursiva faz mais operações porque empilha várias chamadas de função. Por isso, ela faz mais operações a cada chamada para 
+empilhar e desempilhar, além de consumir mais memória até atingir o caso base para parar a recursividade.
+
+Já a versão iterativa consome menos memória porque não precisa da "pilha de chamadas" sem precisar fazer mais operações também.
