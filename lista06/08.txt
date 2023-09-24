@@ -1,0 +1,7 @@
+P: Defina com as suas palavras o que é uma enumeração em linguagem C?
+
+R: Uma enumeração em C é uma maneira de criar um novo tipo de dados com valores simbólicos nomeados. 
+Esses valores representam constantes que têm um significado específico em um contexto particular.
+Enumerações são úteis para tornar o código mais legível e significativo. 
+Por exemplo, podemos definir uma enumeração "DiasDaSemana" com valores como "Segunda" e "Terça" para representar 
+os dias da semana em vez de usar números inteiros.

@@ -1,0 +1,6 @@
+P: Qual é a diferença entre uma struct e uma union?
+
+R: A principal diferença está na forma como a memória é alocada e acessada:
+
+    * Em uma struct, você pode acessar todos os membros ao mesmo tempo, pois eles têm espaço de memória separado.
+    * Em uma union, você acessa apenas um membro por vez, pois todos compartilham o mesmo espaço de memória. Alterar um membro afeta os outros membros da `union.
