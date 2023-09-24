@@ -1,0 +1,5 @@
+P: Defina (com suas palavras) o que é um ponteiro, e por que precisamos declarar o tipo de um ponteiro?
+
+R: 
+Um ponteiro é uma variável que guarda o endereço de memória, e precisamos declarar seu tipo para o compilador 
+saber como tratar os dados nesse endereço. Isso evita erros e garante a correta manipulação dos dados.

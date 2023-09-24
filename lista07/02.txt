@@ -1,0 +1,41 @@
+Pergunta: Se i é uma variável e p é um ponteiro que aponta para i, quais das seguintes ex-pressões são apelidos (alias) para i?
+
+1. *p
+
+2. &p
+
+3. *&p
+
+4. &*p
+
+5. *i
+
+6. &i
+
+7. *&i
+
+8. &*i
+
+--------------------------------------------------------------------------------------------------------------
+
+Resposta:
+*p - Este é um apelido para i porque *p desreferencia o ponteiro p para acessar o valor armazenado em i.
+
+&p - Isso não é um apelido para i. Isso é o endereço do ponteiro p, não o valor de i.
+
+*&p - Isso não é um apelido para i. Isso é uma operação redundante que primeiro obtém o endereço de p com &p e, em seguida, tenta desreferenciar esse endereço, o que não leva a i.
+
+&*p - Isso não é um apelido para i. Isso é o endereço do valor apontado por p, não o valor de i.
+
+*i - Isso não é um apelido para i. i é uma variável normal, não um ponteiro, e não pode ser desreferenciado como um ponteiro.
+
+&i - Isso não é um apelido para i. Isso é o endereço de i, não o valor de i.
+
+*&i - Este é um apelido para i. Embora seja uma operação redundante que primeiro obtém o endereço de i com &i e, em seguida, desreferencia esse endereço para acessar o valor de i, ainda é um apelido válido para i.
+
+&*i - Isso não é um apelido para i. Isso tenta desreferenciar o valor de i como se fosse um ponteiro, o que não é permitido, pois i não é um ponteiro.
+
+Portanto, as expressões que são apelidos para i são:
+
+*p
+*&i

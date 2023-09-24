@@ -1,0 +1,23 @@
+Pergunta: Por que o código abaixo está errado? Como corrigir a função swap?
+
+void swap(int *i, int *j) {
+  int *tmp;
+  *tmp = *i;
+  *i = *j;
+  *j = *tmp;
+}
+
+
+Resposta: O código fornecido está incorreto devido ao uso incorreto de um ponteiro não inicializado.
+Mais especificamente, a variável tmp é declarada como um ponteiro, mas não é inicializada antes de ser usada para realizar trocas de 
+valores. Isso pode levar a comportamento indefinido, pois tmp contém um endereço de memória aleatório, não apontando para nenhum local
+válido na memória.
+
+Para corrigir o código, seria preciso alocar memória para tmp e, em seguida, desreferenciá-lo corretamente. Exemplo, de correção:
+
+void swap(int *i, int *j) {
+  int tmp; // Declarar tmp como uma variável inteira, não como um ponteiro
+  tmp = *i;
+  *i = *j;
+  *j = tmp; // Usar a variável tmp, não um ponteiro
+}

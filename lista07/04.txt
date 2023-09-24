@@ -1,0 +1,36 @@
+Pergunta: Sei que i é uma variável do tipo int e p é uma ponteiro para int, quais das seguintes atribuições são corretas?
+
+1) p = 1;
+2) *p = &i;
+3) &p = q;
+4) p = &q;
+5) p = *&q;
+6) p = q;
+7) *p = q;
+8) *p = *q;
+
+Resposta: 
+
+1) p = 1;
+Isso está incorreto. Tentativa de atribuir o valor 1 diretamente ao ponteiro p, o que não é permitido. O correto seria atribuir o endereço de uma variável inteira a p.
+
+2) *p = &i;
+Isso está incorreto. Tentativa de atribuir o endereço de i a *p, que não é uma atribuição válida. *p é uma desreferência e deve ser usado para atribuir um valor a p.
+
+3) &p = q;
+Isso está incorreto. Tentativa de atribuir o valor do ponteiro q ao endereço de p, o que não é permitido. O endereço de uma variável não pode ser alterado dessa forma.
+
+4) p = &q;
+Isso está correto. Atribuição do endereço de q ao ponteiro p.
+
+5) p = *&q;
+Isso está correto. *&q é essencialmente equivalente a q, então atribuição do valor do ponteiro q (que é um endereço) a p.
+
+6) p = q;
+Isso está correto. Atribuição do valor do ponteiro q a p.
+
+7) *p = q;
+Isso está incorreto. Tentativa de atribuir um ponteiro diretamente a *p, que é uma desreferência. O correto seria atribuir um valor inteiro a *p.
+
+8) *p = *q;
+Isso está correto. Atribuição do valor apontado por q ao valor apontado por p. Desde que p e q sejam ponteiros para inteiros, essa atribuição é válida.
