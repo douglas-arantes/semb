@@ -1,4 +1,4 @@
-Pergunta: Sei que i é uma variável do tipo int e p é uma ponteiro para int, quais das seguintes atribuições são corretas?
+Pergunta: Se i é uma variável do tipo int e p e q são ponteiros para int, quais das seguintes atribuições são corretas?
 
 1) p = 1;
 2) *p = &i;
