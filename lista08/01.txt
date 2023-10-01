@@ -1,0 +1,8 @@
+Pergunta: Qual é a diferença entre alocação estática e dinâmica?
+
+Resposta: 
+
+1) Alocação estática é quando a memória é alocada em tempo de compilação com tamanho fixo, ou seja, é feita pelo compilador.
+
+2) Alocação dinâmica é quando a memória é alocada em tempo de execução, com tamanho variável e requer que
+o usuário a libere manualmente quando não for mais necessária.
